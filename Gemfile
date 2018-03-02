@@ -5,6 +5,10 @@ gem 'rails', '4.2.5'
 group :development do
   gem 'sqlite3'
 end
+
+#use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.1'
+
 group :production do
   gem 'pg', '~> 0.2'
   gem 'rails_12factor'
